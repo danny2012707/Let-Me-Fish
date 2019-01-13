@@ -30,6 +30,8 @@ S_FISHING_BITE = 60088
 
 S_START_FISHING_MINIGAME = 57542
 
+------------------------
+
 3.进入游戏钓鱼区域
 
 - /8频道 键入命令 fish 打开模组
