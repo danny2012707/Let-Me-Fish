@@ -1,12 +1,12 @@
 {
-	"disableAutoUpdate": false,
-	"name": "let-me-fish",
-	"author": "Lambda11",
-	"description": "Auto-fishes, auto-crafts bait, auto-dismantles fish for you",
+	"disableAutoUpdate": true,
+	"name": "Let-Me-Fish",
 	"options": {
-		"niceName": "Let-me-Fish",
-		"guiName": "Let me Fish"
+		"niceName": "自动钓鱼",
+		"guiName": "自动钓鱼"
 	},
-	"servers": ["https://raw.githubusercontent.com/Lambda11/let-me-fish/master/"],
-	"supportUrl": "https://github.com/Lambda11/let-me-fish/issues"
+	"author": "Lambda / ZC",
+	"description": "描述: 自动钓鱼/合成鱼饵/分解鱼肉/延迟拉钩",
+	"servers": ["https://raw.githubusercontent.com/zc149352394/Let-Me-Fish/master/"],
+	"supportUrl": "https://github.com/zc149352394/Let-Me-Fish/issues"
 }
