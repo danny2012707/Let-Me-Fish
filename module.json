@@ -1,5 +1,5 @@
 {
-	"disableAutoUpdate": true,
+	"disableAutoUpdate": false,
 	"name": "Let-Me-Fish",
 	"options": {
 		"niceName": "自动钓鱼",

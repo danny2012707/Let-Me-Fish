@@ -6,7 +6,7 @@
 		"defs/S_FISHING_BITE.2.def": "69b1645403e041d4777625a2dcb6adb7186a7c28f52d00dd3b3f10af06ff7641",
 		"defs/S_START_FISHING_MINIGAME.1.def": "ba020c5fef811f147633dc9f0ee8ffb196cf8777211533a58ce3a2c92b277c68",
 		"index.js": "56e5234a3d71b0ea03637dba0a77e37ddc6768a28115d0cd9f15e002619ac5e0",
-		"module.json": "dbf6591d12fd73192df7fc4d7bf4ae743a3ab09c711031c2bef7e254c6b11299"
+		"module.json": "8f1b7eef2525c15d57d0ff306bb638c08aff387fba2caf2e6a615d9cda8ac47d"
 	},
 	"defs": {
 		"C_CANCEL_CONTRACT": 1,
