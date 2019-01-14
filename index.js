@@ -83,7 +83,7 @@ module.exports = function LetMeFish(mod) {
 				scanning = true;
 				let stepN = 1;
 				if (!craftId) {
-					command.message(stepN + ") 点击制作一次 - 你想要[自动合成]鱼饵的配方");
+					command.message(stepN + ") 点击制作一次 - 你想要自动[合成鱼饵]的配方");
 					stepN++;
 				}
 				command.message(stepN + ") 抛出鱼竿 - 自动钓鱼系统将启动");
@@ -180,12 +180,12 @@ module.exports = function LetMeFish(mod) {
 			let h = addZero(d.getHours());
 			let m = addZero(d.getMinutes());
 			let s = addZero(d.getSeconds());
-			command.message('统计: ' + statFished + ' 条鱼')
-			command.message('用时: ' + (h + ":" + m + ":" + s))
-			command.message('平均: ' + Math.round((timeElapsedMSec / statFished) / 1000) + ' 秒/条鱼');
-			command.message('鱼类:');
+			command.message('- 统计: ' + statFished + ' 条鱼')
+			command.message('- 用时: ' + (h + ":" + m + ":" + s))
+			command.message('- 平均: ' + Math.round((timeElapsedMSec / statFished) / 1000) + ' 秒/条鱼');
+			command.message('- 鱼类:');
 			for (let i in statFishedTiers) {
-				command.message('- 等级[' + i + '] ' + statFishedTiers[i] + ' 条');
+				command.message('- 等级[' + i + '] ' + statFishedTiers[i] + '条');
 			}
 			statFished = 0;
 			statFishedTiers = {};
